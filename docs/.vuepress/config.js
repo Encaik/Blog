@@ -118,8 +118,8 @@ module.exports = {
         "git",
         "vuepress"
       ],
-      "/front/": ["", "es", "dsaa", "lib", "shixi"],
-      "/music/": [""],
+      "/note/front/": ["", "es", "dsaa", "lib", "shixi"],
+      "/note/music/": [""],
       "/leecode/": ["", "leecode"],
       "/repo/": [
         "",
