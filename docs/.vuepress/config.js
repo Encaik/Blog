@@ -31,7 +31,16 @@ module.exports = {
       },
       {
         text: "📃笔记摘录",
-        link: "/note/"
+        items: [
+          {
+            text: "前端",
+            link: "/note/front/"
+          },
+          {
+            text: "音乐",
+            link: "/note/music/"
+          }
+        ]
       },
       {
         text: "📰力扣记录",
@@ -61,6 +70,7 @@ module.exports = {
     sidebar: {
       "/blog/": [
         "",
+        "gis",
         "harmony",
         "vscode-extension",
         "svelte",
@@ -108,10 +118,12 @@ module.exports = {
         "git",
         "vuepress"
       ],
-      "/note/": ["", "es", "dsaa", "lib", "shixi"],
+      "/front/": ["", "es", "dsaa", "lib", "shixi"],
+      "/music/": [""],
       "/leecode/": ["", "leecode"],
       "/repo/": [
         "",
+        "canvas-lib",
         "mddemo",
         "chatdemo",
         "ksh",
