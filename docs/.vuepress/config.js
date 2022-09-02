@@ -31,16 +31,7 @@ module.exports = {
       },
       {
         text: "📃笔记摘录",
-        items: [
-          {
-            text: "前端",
-            link: "/note/front/"
-          },
-          {
-            text: "音乐",
-            link: "/note/music/"
-          }
-        ]
+        link: "/note/front/"
       },
       {
         text: "📰力扣记录",
@@ -53,6 +44,15 @@ module.exports = {
       {
         text: "📖知识总览",
         link: "/road/"
+      },
+      {
+        text: "🎨爱好随笔",
+        items: [
+          {
+            text: "音乐",
+            link: "/note/music/"
+          }
+        ]
       },
       {
         text: "Github",
@@ -119,7 +119,7 @@ module.exports = {
         "vuepress"
       ],
       "/note/front/": ["", "es", "dsaa", "lib", "shixi"],
-      "/note/music/": [""],
+      "/note/music/": ["", "abc"],
       "/leecode/": ["", "leecode"],
       "/repo/": [
         "",
