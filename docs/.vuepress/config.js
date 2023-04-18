@@ -70,6 +70,9 @@ module.exports = {
     sidebar: {
       "/blog/": [
         "",
+        "ng-universal",
+        "ng-alain-generate",
+        "ng-alain-mock",
         "gis",
         "harmony",
         "vscode-extension",
